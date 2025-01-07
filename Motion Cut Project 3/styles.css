@@ -1,0 +1,122 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-logo {
+  font-family: Impact, sans-serif; /* Heavy font */
+  font-size: 2rem; /* Adjust font size */
+  font-weight: normal; /* Remove extra boldness */
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.5px; /* Add subtle spacing for balance */
+  text-transform: uppercase; /* Optional: Makes text sleek and uniform */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adds a soft shadow for depth */
+}
+nav.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar ul li {
+    margin: 0 15px;
+}
+
+nav.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product-details {
+    flex: 1;
+    padding: 1rem;
+}
+
+.product-details h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.product-details .description {
+    margin: 1rem 0;
+    color: #666;
+}
+
+.product-details .price {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-bottom: 1rem;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.related-products {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.related-products h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.related-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.related-item {
+    text-align: center;
+}
+
+.related-item img {
+    width: auto;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    object-fit: cover;
+}
